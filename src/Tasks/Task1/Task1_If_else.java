@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.Task1;
 
 import Helpers.ScannerConsole;
 
