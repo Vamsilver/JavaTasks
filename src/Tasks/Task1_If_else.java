@@ -11,7 +11,7 @@ public class Task1_If_else {
 
         ScannerConsole scannerConsole = new ScannerConsole();
 
-        // TODO Task 1
+        // Task 1
         System.out.println();
 
         int xValue;
@@ -23,11 +23,11 @@ public class Task1_If_else {
 
         System.out.print((xValue % 2 == 0 && yValue % 2 == 0) || (xValue % 2 != 0 && yValue % 2 != 0) ? //проверка на нечетность/четность обоих чисел
                 "Удачное совпадение" : "");
-        //TODO End Task 1
+        // End Task 1
 
         System.out.println("\n\n");
 
-        // TODO Task 2
+        //  Task 2
         int day;
         day = scannerConsole.GetIntValueFromConsoleWithLimit(1, 31,
                 GET_MESSAGE + " дня", ERROR_MESSAGE + " дня"); //запрос данных дня
@@ -42,7 +42,7 @@ public class Task1_If_else {
             monthDecade = 3;
 
         System.out.println("Номер декады месяца = " + monthDecade);
-        //TODO End Task 2
+        // End Task 2
     }
 }
 
