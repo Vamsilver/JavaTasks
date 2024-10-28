@@ -1,4 +1,4 @@
-﻿package Tasks.Task3;
+package Tasks.Task3;
 
 public class Calculator {
     int a;
@@ -14,42 +14,42 @@ public class Calculator {
         b = 0;
     }
 
-    public int Sum(int a, int b)
+    public int sum(int a, int b)
     {
         return a + b;
     }
 
-    public int Sum()
+    public int sum()
     {
         return a + b;
     }
 
-    public int Diff(int a, int b)
+    public int diff(int a, int b)
     {
         return a - b;
     }
 
-    public int Diff()
+    public int diff()
     {
         return a - b;
     }
 
-    public void Multiply(int a, int b)
+    public void multiply(int a, int b)
     {
         System.out.println(a * b);
     }
 
-    public void Multiply()
+    public void multiply()
     {
         System.out.println(a * b);
     }
 
-    public void Div(int a, int b)
+    public void div(int a, int b)
     {
         System.out.println(a / b);
     }
 
-    public void Div()
+    public void div()
     {
         System.out.println(a / b);
     }
