@@ -24,11 +24,11 @@ public class Sportsman {
     }
 
     public void run() {
-        System.out.println("Спорстмен по имени " + getName() + " побежал");
+        System.out.println("Спортсмен по имени " + getName() + " побежал");
     }
 
     public void printInfo() {
-        System.out.println("Встрейчате спорстмена по имени " + getName() + " за команду " + getTeam() +
+        System.out.println("Встречайте спортсмена по имени " + getName() + " за команду " + getTeam() +
                 " возрастом " + getAge() + " лет");
     }
 }
