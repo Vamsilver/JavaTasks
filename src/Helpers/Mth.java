@@ -18,4 +18,12 @@ public class Mth {
     {
         return round(random(min, max), decimalPlaces);
     }
+
+    public static boolean isEven(int num) throws Exception {
+        if(num % 2 != 0) {
+            throw new Exception("Число " + num + " нечетное");
+        }
+        else
+            return true;
+    }
 }
