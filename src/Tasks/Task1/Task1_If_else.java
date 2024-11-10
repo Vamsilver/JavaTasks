@@ -17,9 +17,9 @@ public class Task1_If_else {
         int xValue;
         int yValue;
 
-        xValue = scannerConsole.GetIntValueFromConsole(GET_MESSAGE + " X", ERROR_MESSAGE + " X"); //запрос данных X
+        xValue = scannerConsole.getIntValueFromConsole(GET_MESSAGE + " X", ERROR_MESSAGE + " X"); //запрос данных X
 
-        yValue = scannerConsole.GetIntValueFromConsole(GET_MESSAGE + " Y", ERROR_MESSAGE + " Y"); //запрос данных Y
+        yValue = scannerConsole.getIntValueFromConsole(GET_MESSAGE + " Y", ERROR_MESSAGE + " Y"); //запрос данных Y
 
         System.out.print((xValue % 2 == 0 && yValue % 2 == 0) || (xValue % 2 != 0 && yValue % 2 != 0) ? //проверка на нечетность/четность обоих чисел
                 "Удачное совпадение" : "");
@@ -29,7 +29,7 @@ public class Task1_If_else {
 
         //  Task 2
         int day;
-        day = scannerConsole.GetIntValueFromConsoleWithLimit(1, 31,
+        day = scannerConsole.getIntValueFromConsoleWithLimit(1, 31,
                 GET_MESSAGE + " дня", ERROR_MESSAGE + " дня"); //запрос данных дня
 
         int monthDecade;

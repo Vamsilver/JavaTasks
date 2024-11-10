@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerConsole {
     Scanner scanner = new Scanner(System.in);
 
-    public int GetIntValueFromConsole(String getMessage, String errorMessage) {
+    public int getIntValueFromConsole(String getMessage, String errorMessage) {
         int value = 0;
         boolean _isSuccess = false;
 
@@ -26,12 +26,12 @@ public class ScannerConsole {
         return value;
     }
 
-    public int GetIntValueFromConsoleWithLimit(int minValue, int maxValue, String getMessage, String errorMessage) {
+    public int getIntValueFromConsoleWithLimit(int minValue, int maxValue, String getMessage, String errorMessage) {
         int value;
         boolean _isSuccess;
 
         do {
-            value = GetIntValueFromConsole(getMessage, errorMessage);
+            value = getIntValueFromConsole(getMessage, errorMessage);
 
             _isSuccess = value >= minValue && value <= maxValue;
 
