@@ -21,6 +21,8 @@ public class Task14_List {
         System.out.println("Есть ли в этом списке \"" + value + "\"?");
         System.out.println(isContainsInArray(arrayList, value) ? "Есть такой" : "Промах");
 
+        System.out.println();
+
         //Task 2
         LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.add(1);
