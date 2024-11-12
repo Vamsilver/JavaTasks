@@ -1,5 +1,7 @@
 package Tasks.Task19;
 
+import java.util.Arrays;
+
 public class Task19_Lambda {
     public static void main(String[] args) {
         //Task 1
@@ -14,6 +16,7 @@ public class Task19_Lambda {
 
         Double[] doubles = {2.0, 2.2, 3.1, 4.0};
 
+        System.out.println(Arrays.toString(doubles));
         System.out.println(doubleOperation.operation(doubles));
 
         //Task 2
@@ -28,6 +31,7 @@ public class Task19_Lambda {
         };
 
         String[] strings = {"Привет", "Проверяющий", "Как", "Дела?"};
+        System.out.println(Arrays.toString(strings));
         System.out.println(operationString.operation(strings));
     }
 
