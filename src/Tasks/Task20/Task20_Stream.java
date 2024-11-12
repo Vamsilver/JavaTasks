@@ -18,7 +18,9 @@ public class Task20_Stream {
         strings.add("Огурцы");
         strings.add("Кукуруза");
 
-        System.out.println(func(strings.stream(),'М'));
+        strings.forEach(System.out::println);
+
+        System.out.println("Слов на букву М = " + func(strings.stream(),'М') + "\n");
 
         //Task 2
         List<Person> persons = new ArrayList<>();
@@ -32,6 +34,9 @@ public class Task20_Stream {
         persons.add(new Person("Клава", 38));
         persons.add(new Person("Никита", 29));
         persons.add(new Person("Лиза", 27));
+
+        persons.forEach(System.out::println);
+        System.out.println();
 
         persons.stream().filter(el -> el.age > 30).forEach(System.out::println);
 
